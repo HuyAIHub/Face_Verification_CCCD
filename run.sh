@@ -1,0 +1,1 @@
+nohup uvicorn huydq46:app --host 0.0.0.0 --port 8002 > logs.txt 2>&1 & echo $! > run.pid
